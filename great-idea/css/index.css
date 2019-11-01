@@ -79,6 +79,7 @@ nav {
 	justify-content: space-evenly;
 	align-items: center;
 	margin: 20px;
+	flex-wrap: wrap;
 }
 .button {
 	color: grey;
@@ -91,6 +92,7 @@ nav {
 	display: flex;
 	width: 100%;
 	justify-content: space-evenly;
+	flex-wrap: wrap;
 }
 
 p {
@@ -162,6 +164,7 @@ h1 {
 	justify-content: center;
 	align-items: center;
 	width 100%;
+	flex-wrap: wrap;
 		
 }
 .middle-img img {
@@ -176,6 +179,7 @@ h1 {
 	display: flex;
 	align-items: center;	
 	justify-content: center;
+	flex-wrap: wrap;
 }
 
 .services-div {
@@ -216,7 +220,7 @@ h1 {
 }
 
 .third-section address {
-	margin: 20px 30px;
+	margin: 30px 6%;
 }
 
 /* footer starts here */
@@ -230,7 +234,7 @@ h1 {
 .services-two {
 	display: flex;
 	flex-direction: column;
-	width: 500px%;
+	width: 85%;
 	margin: 3% 7%;
 	justify-content: center;
 	
@@ -246,6 +250,7 @@ h2 {
 	align-items: center;
 	flex-wrap: wrap;	
 	justify-content: center;
+	margin: 0px 0px 20px 0px;
 }
 
 .digital-design {
@@ -264,7 +269,11 @@ h2 {
 	margin: 3%;
 }
 h3 {
-	margin: 0% 3%;
+	margin: 2% 0%;
+}
+
+.h3-services {
+	margin: 2% 3%;
 }
 
 .learnMore {
@@ -294,7 +303,6 @@ h3 {
 }
 
 .digital-marketing {
-	
 	display: flex;
 	flex-direction: column;
 	margin: 30px 55px 10px;
@@ -310,7 +318,6 @@ h3 {
 }
 
 .web-development {
-	
 	display: flex;
 	flex-direction: column;
 	margin: 30px 55px 10px;
@@ -323,3 +330,66 @@ h3 {
 	
 .web-development p {
 	margin: 3%;	
+}
+
+.ios-development {
+	display: flex;
+	flex-direction: column;
+	margin: 30px 55px 10px;
+	width: 400px;
+	height: 200px;
+	border: 1px solid black;
+	background-color: gainsboro;
+	justify-content: center;
+}
+	
+.ios-development p {
+	margin: 3%;
+}
+
+.android-development {
+	display: flex;
+	flex-direction: column;
+	margin: 30px 55px 10px;
+	width: 400px;
+	height: 200px;
+	border: 1px solid black;
+	background-color: gainsboro;
+	justify-content: center;
+}
+	
+.android-development p {
+	margin: 3%;
+}
+
+.last-section {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	flex-wrap: wrap;
+
+}
+.some-facts {
+	display: flex;
+	flex-direction: column;
+	margin: 50px 5% 10px;
+	width: 400px;
+	height: 200px;
+	justify-content: center;
+}
+
+.some-facts h3 {
+	margin: 5% 0% 2% 8%;
+}
+.some-facts p {
+	margin: 3% 8%;
+}
+.some-facts ul {
+	margin: 0% 13%;
+	line-height: 1.5;
+
+}
+.right-box {
+	margin: 40px 60px 5% 13%;
+}
+
